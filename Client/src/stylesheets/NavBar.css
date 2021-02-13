@@ -4,6 +4,7 @@
   width: 100vw;
   height: 50px;
   background-color: #505050;
+  z-index: 999;
 }
 
 .NB-logo {

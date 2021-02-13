@@ -1,0 +1,31 @@
+.LP-splash {
+  width: 100vw;
+  height: 120vh;
+  background-color: #c2e6eb;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.LP-splash-container {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.LP-splash-logo {
+  display: inline-block;
+  width: 140px;
+  height: 66px;
+}
+
+.LP-splash-header {
+  display: inline-block;
+  color: #505050;
+  font-size: 24px;
+  font-weight: bolder;
+  height: 66px;
+  line-height: 66px;
+  transform: translate(5%, -25%);
+}
