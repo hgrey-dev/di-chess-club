@@ -10,18 +10,18 @@ const LandingPage = () => {
       <NavBar />
       <section className='LP-splash'>
         <div className='LP-splash-container'>
-          <img className='LP-splash-logo' src={Logo} alt='Developers Institute Chess Club' />
-          <h1 className='LP-splash-header'>Developers Institute Chess Club</h1>
+          <img data-testid='logo' className='LP-splash-logo' src={Logo} alt='Developers Institute Chess Club' />
+          <h1 data-testid='title' className='LP-splash-header'>Developers Institute Chess Club</h1>
         </div>
       </section>
       <section className='LP-activities'>
-        <h2>Latest Club Activities</h2>
+        <h2 data-testid='activities'>Latest Club Activities</h2>
         <div className='LP-latest'>
           <div className='LP-latest-game'>
-            <h3>Latest Game</h3>
+            <h3 data-testid='latest-game'>Latest Game</h3>
           </div>
           <div className='LP-latest-schedule'>
-            <h3>Club Activities Schedule</h3>
+            <h3 data-testid='schedule'>Club Activities Schedule</h3>
           </div>
         </div>
       </section>
